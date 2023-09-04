@@ -1,0 +1,53 @@
+.container-fluid{
+   border: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.gallary{
+    background-color: blue;
+    padding: 20px 20px;
+}
+h1{
+    color: yellow;
+    text-transform: capitalize;
+}
+input{
+    border-radius: 10px;
+    position:absolute;
+    top: 30px;
+    left:60%;
+}
+button{
+    position:absolute;
+    top: 30px;
+    left:75%;
+}
+i{
+    color: #080707;
+    font-size: 2rem;
+}
+.card1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blue{
+    width: 100%;
+    height: 100%;
+    background-image:url('img/Darjaling/Darjaling1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: blue_img 20s infinite linear;
+}
+@keyframes blue_img{
+  
+   0%{background-image:  url('img/Darjaling/Darjaling3.jpeg');}
+   20%{background-image:  url('img/Agra/istockphoto-1169495248-612x612.jpg');}
+   35%{background-image:  url('img/Jaipur/istockphoto-154894958-612x612.jpg');}
+   60%{background-image:  url('img/Kerala/istockphoto-480488320-612x612.jpg');}
+   80%{background-image:  url('img/Delhi/istockphoto-1539293084-612x612.jpg');}
+   100%{background-image:  url('img/Mumbai/istockphoto-137421702-612x612.jpg');}
+   
+}
+
